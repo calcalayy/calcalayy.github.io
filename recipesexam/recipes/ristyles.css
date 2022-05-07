@@ -1,0 +1,65 @@
+body {
+    color: white;
+    text-align: center;
+}
+
+html {
+    min-height: 100vh;
+    background: linear-gradient(180deg, rgb(182, 159, 97), rgb(128, 89, 24));
+}
+
+img {
+    animation-duration: 1.5s;
+    animation-name: fadeIn;
+}
+
+h1 {
+    animation-duration: 1.5s;
+    animation-name: fadeIn;
+    font-family: "cot";
+}
+
+h2 {
+    animation-duration: 1.5s;
+    animation-name: fadeIn;
+    font-family: "cot";
+}
+
+p {
+    font-family: "ame";
+    animation-duration: 1s;
+    animation-name: fadeIn;
+}
+
+li {
+    font-family: "ame";
+    text-align: center;
+    list-style-position: inside;
+    animation-duration: 1.5s;
+    animation-name: fadeIn;
+}
+
+a {
+    font-family: "ame";
+    animation-duration: 1.5s;
+    animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@font-face {
+    font-family: "cot";
+    src: url(resources/comfortaa.ttf);
+}
+
+@font-face {
+    font-family: "ame";
+    src: url(resources/amethysta.ttf);
+}
