@@ -1,0 +1,113 @@
+body {
+    text-align: center;
+    margin: 0px;
+    height: 100vh;
+}
+
+html {
+    min-height: 100vh;
+    background: linear-gradient(180deg, rgb(182, 159, 97), rgb(128, 89, 24));
+}
+
+img {
+    animation-duration: 1.5s;
+    animation-name: fadeIn;
+}
+
+div {
+    position: relative;
+    top: 8em;
+    width: 45em;
+    height: 112em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5em double white;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 1em;
+    background:rgb(59, 59, 59);
+}
+
+h1 {
+    animation-duration: 1.5s;
+    animation-name: intro;
+    font-family: "cot";
+}
+
+h2 {
+    animation-duration: 1.5s;
+    animation-name: fadeIn;
+    font-family: "cot";
+}
+
+p {
+    font-family: "ame";
+    animation-duration: 1s;
+    animation-name: fadeIn;
+    width: 400px;
+    margin: 0 auto;
+}
+
+ul {
+    font-family: "ame";
+    text-align: center;
+    list-style-position: inside;
+    animation-duration: 1.5s;
+    animation-name: fadeIn;
+    width: 400px;
+    margin: auto;
+}
+
+ol {
+    font-family: "ame";
+    text-align: center;
+    list-style-position: inside;
+    animation-duration: 1.5s;
+    animation-name: fadeIn;
+    width: 400px;
+    margin: auto;
+}
+
+a {
+    font-family: "ame";
+    animation-duration: 1.5s;
+    animation-name: fadeIn;
+}
+
+p.double {border-style: double; border-width: thick;}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@font-face {
+    font-family: "cot";
+    src: url(resources/comfortaa.ttf);
+}
+
+@font-face {
+    font-family: "ame";
+    src: url(resources/amethysta.ttf);
+}
+
+@keyframes intro {
+    100% {
+        bottom: 0;
+    }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes Down {
+    100% {top: 19em};
+}
